@@ -1,0 +1,118 @@
+body{
+      margin:0px ;
+      padding:0px ;
+      display: flex ;
+      justify-content: center;
+      padding-top: 100px;
+      background-image: url("background6.jpg");
+      background-size: cover;
+}
+.registration-container{
+      height:500px ;
+      width:400px ;
+      border:0.9px solid white;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transition: all 0.1s ease;
+      backdrop-filter: blur(15px);
+      border-radius: 30px;
+      color: white;
+}
+.registration-container:hover{
+      transform: scale(1.009);
+      border:2px solid white ;
+}
+.registration-container h1{
+      font-size: 50px ;
+      text-align: center;
+      color: white;
+}
+.check-box{
+      margin-left: 80px;
+}
+#email{
+      height:30px ;
+      width:250px ;
+      margin-top:30px ;
+      margin-left: 20px;
+      box-shadow: 1px 1px 1px 1px white;
+      border-radius: 20px;
+      background: transparent;
+      transition: all 0.5s ease;
+      color: white;
+}
+#password{
+      height:30px ;
+      width:250px ;
+      margin-top:15px ;
+      margin-left: 20px;
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px 1px white;
+      background: transparent;
+      transition: all 0.5s ease;
+      color: white;
+}
+#r-password{
+      height:30px ;
+      width:250px ;
+      margin-top:15px ;
+      margin-left: 20px;
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px 1px white;
+      background: transparent;
+      transition: all 0.5s ease;
+      color: white;
+}
+#otp{
+      height:30px ;
+      width:100px ;
+      margin-top:15px ;
+      margin-left: 20px;
+      border-radius: 20px;
+      background: transparent;
+      transition: all 0.5s ease;
+      color: white;
+}
+input::placeholder{
+      color: white;
+      text-align: center;
+}
+.registration-container #email:hover{
+      border:1px solid white ;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transform: scale(1.05);
+}
+.registration-container #password:hover{
+      border:1px solid white ;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transform: scale(1.05);
+}
+.registration-container #r-password:hover{
+      border:1px solid white ;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transform: scale(1.05);
+}
+.registration-container #otp:hover{
+      border:1px solid white ;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transform: scale(1.05);
+}
+#otpbtn{
+      border-radius: 15px;
+      background-color: rgb(101, 250, 101);
+      margin-left: 20px;
+}
+#verifybtn{
+      width:50px;
+      border-radius: 15px ;
+      background-color: rgb(101, 250, 101);
+      margin-left: 20px;
+}
+#submit{
+      height:40px;
+      width:100px;
+      border-radius: 30px;
+      margin-top:40px ;
+      margin-left:60px ;
+      background-color: rgb(95, 102, 248);
+      color: white;
+}

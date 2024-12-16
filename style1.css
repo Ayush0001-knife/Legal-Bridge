@@ -1,0 +1,109 @@
+body{
+      margin: 0px;
+      padding: 0px ;
+      display: flex;
+      justify-content: center;
+      margin-top: 30px ;
+      background-image: url("background5.jpg");
+}
+.container{
+      height:600px ;
+      width:800px ;
+      background-color: aliceblue;
+      border:2px solid white ;
+      border-radius: 50px;
+      transition: all 0.5s ease;
+}
+.container:hover{
+      transform: scale(1.06);
+      box-shadow: 10px 10px 15px 5px white;
+}
+.container h1{
+      text-align: center;
+      font-size: 45px;
+      color: black ;
+}
+.container #id1{
+      font-size:23px ;
+      color: rgba(2, 254, 15, 0.556);
+      font-weight: bolder;
+     
+}
+/* .container #id2{
+      font-size: 12px;
+      color: black;
+} */
+.container .plans{
+      height:350px;
+      margin-top: 30px;
+      width:800px ;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+.basic , .standard , .Premium{
+      height:330px ;
+      width:250px ;
+      background-color: antiquewhite;
+      transition: all 0.2s ease;
+}
+.basic{
+      font-size:20px ;
+      padding-top: 5px;
+      text-align: center;
+      color: rgb(9, 9, 235);
+      border-radius: 20px;
+}
+.basic p{
+      font-size: 50px;
+      color: black;
+}
+.basic ul li{
+      font-size: 15px ;
+      color: orange;
+}
+.standard{
+      font-size:20px ;
+      padding-top: 5px;
+      text-align: center;
+      color: rgb(4, 246, 36);
+      border-radius: 20px;
+}
+.standard p{
+      font-size: 50px;
+      color: black;
+}
+.standard ul li{
+      font-size: 15px;
+      color: orange;
+}
+.Premium{
+      font-size:20px ;
+      padding-top: 5px;
+      text-align: center;
+      color: rgb(16, 16, 228);
+      border-radius: 20px;
+}
+.Premium p{
+      font-size: 50px;
+      color: black;
+}
+.Premium ul li{
+      font-size:15px ;
+      color: orange;
+}
+.basic:hover{
+      background-color: lightgray ;
+      transform: scale(1.07);
+      
+}
+.standard:hover{
+      background-color: lightgray ;
+      transform: scale(1.07);
+}
+
+.Premium:hover{
+      background-color: lightgray ;
+      transform: scale(1.07);
+}
+

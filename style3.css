@@ -1,0 +1,62 @@
+/* Login Process */
+body{
+      margin:0px ;
+      background-image: url("background6.jpg");
+      background-size:cover;
+      display: flex;
+      justify-content: center;
+      padding-top:160px ;
+}
+.login-container{
+      height:300px ;
+      width:300px ;
+      border:0.9px solid white;
+      border-radius: 30px;
+      backdrop-filter:blur(15px) ;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transition: all 0.7s ease;
+}
+.login-container:hover{
+      transform: scale(1.09);
+      border:2px solid white ;
+}
+.login-container h1{
+      color: white;
+      font-size: 50px ;
+      text-align: center;
+}
+.login-container #email,#password{
+      height:30px ;
+      width:200px ;
+      margin-left: 45px;
+      border-radius: 30px;
+      background-color: transparent;
+      margin-top:10px ;
+      transition: all 0.5s ease;
+      color: white;
+}
+input::placeholder{
+      color: white;
+      text-align: center;
+}
+.login-container #email:hover{
+      border:1px solid white ;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transform: scale(1.05);
+}
+.login-container #password:hover{
+      border:1px solid white ;
+      box-shadow: 5px 5px 10px 2px rgba(245, 244, 244, 0.5);
+      transform: scale(1.05);
+}
+#submit{
+      height:30px ;
+      width:100px ;
+      margin-top: 30px;
+      margin-left: 100px;
+      background-color: rgb(95, 102, 248);
+      color: white;
+      border-radius: 15px;
+      border:1px solid white ;
+}
+

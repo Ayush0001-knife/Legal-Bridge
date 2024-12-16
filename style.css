@@ -1,0 +1,237 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;   
+      background-color:black ;
+      background-image: url("background3.png");
+  }
+  #id1{
+      height:300px ;
+      width:100vw ;
+      max-width: 1172px ;
+      display:flex ;
+      justify-content: center;
+      align-items: center;
+  }
+  .logo{
+      height:280px ;
+      width:300px ;
+      background-image: url(logo.png);
+      background-size: cover;
+      border:2px soild white ;
+      box-shadow: 0 8px 20px rgba(240, 239, 239, 0.958);
+  }
+  .navbar {
+      font-family: Arial, Helvetica, sans-serif;
+      height:70px; 
+      width:1172px;
+      margin-top: 30px;
+      border:2px solid white ;
+      border-radius: 20px;
+      background-color: #4B3929;
+      font-size: 22px;
+      color: white;
+      font-weight: bolder;
+      display: flex;
+      justify-content: center ;
+      gap:100px ;
+      align-items: center;
+      position: relative;
+  }
+  
+  .navbar #image {
+      height: 60px;
+      width: 90px;
+      object-fit: contain;
+  }
+
+  .navbar a {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      position: relative; 
+      transition: color 0.3s ease;
+  }
+  
+  .navbar a::after {
+      content: "";
+      display: block;
+      width: 100%; 
+      height: 2px;
+      background: white; 
+      transition: transform 0.3s ease; 
+      position: absolute;
+      left: 50%;
+      bottom: -5px;
+      transform: translateX(-50%) scaleX(0);
+  }
+  
+  .navbar a:hover {
+      color: #ccc; 
+  }
+  
+  .navbar a:hover::after {
+      transform: translateX(-50%) scaleX(1); 
+  }
+  .card {
+      height: 300px;
+      width: 1000px;
+      margin-left: 100px;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: transparent ;
+      perspective: 1000px;
+      position: relative; 
+  }
+  
+  .card-side-front,
+  .card-side-back {
+      height: 250px;
+      width: 800px;
+      font-family: cursive ;
+      font-weight: bolder;
+      border: 1px solid black;
+      border-radius:50px ;
+      margin-left: 100px ;
+      margin-top:25px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      backface-visibility: hidden; 
+      position: absolute; 
+      top: 0; 
+      left: 0;
+      transition: transform 0.6s; 
+  }
+  
+  .card-side-front {
+      font-size: 60px; 
+      background-image: url("background4.png");
+  }
+  
+  .card-side-back {
+      font-size: 28px;
+      background-image: url("background4.png");
+      transform: rotateY(180deg); 
+  }
+  
+  .card-side-front #image1,
+  .card-side-back #image2 {
+      height: 50px;
+      width: 50px;
+      margin-left: 20px;
+  }
+  
+  .card:hover .card-side-front {
+      transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side-back {
+      transform: rotateY(0deg); 
+  }
+  
+.unique {
+      font-family: Arial, Helvetica, sans-serif;
+      height:250px ;
+      width:530px ;
+      margin-left:50px ;
+      margin-top: 100px;
+      background-image: url("background.png");
+      background-size: contain;
+      transition: all 0.1s ease;
+      border:2px solid white ;
+      box-shadow: 0 4px 20px rgba(250, 248, 248, 0.96);
+}
+.unique:hover{
+      transform: scale(1.05);
+      background-color: #a9e3ed;
+      outline: black ;
+}
+.unique h2{
+      text-align: center;
+      font-size: 25px;
+}
+.unique ul li{
+      font-family: Arial, Helvetica, sans-serif;;
+      font-size: 20px;
+      margin-top: 7px;
+}
+.provide {
+      font-family: Arial, Helvetica, sans-serif;
+      height:280px ;
+      width:530px ;
+      margin-left:600px ;
+      margin-top: 30px;
+      background-image: url("background.png");
+      background-size: contain;
+      transition: all 0.1s ease;
+      border:2px solid white ;
+      box-shadow: 0 4px 20px rgba(250, 248, 248, 0.96);
+}
+.provide:hover{
+      transform: scale(1.05);
+      background-color: #a9e3ed;
+}
+.provide h2{
+      text-align: center;
+      font-size: 25px;
+}
+.provide ul li{
+      font-family: Arial, Helvetica, sans-serif;;
+      font-size: 20px;
+      margin-top: 7px;
+}
+.extra {
+      font-family: Arial, Helvetica, sans-serif;
+      height:200px ;
+      width:530px ;
+      margin-left:50px ;
+      margin-top: 30px;
+      background-image: url("background.png");
+      background-size: contain;
+      background-size: contain;
+      transition: all 0.1s ease;
+      border:2px solid white ;
+      box-shadow: 0 4px 20px rgba(250, 248, 248, 0.96);
+}
+.extra:hover{
+      transform: scale(1.05);
+      background-color: #a9e3ed;
+      outline: black ;
+}
+.extra h2{
+      text-align: center;
+      font-size: 25px;
+}
+.extra ul li{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      margin-top: 10px;
+}
+.login-reg{
+      font-family: Arial, Helvetica, sans-serif;
+      height:200px ;
+      width:200px ;
+      margin-left: 500px ;
+      margin-top:100px ;
+      text-align: center;
+      color:white ;
+      font-size: larger;
+}
+.login-reg button{
+      font-family: Arial, Helvetica, sans-serif;
+      height:50px ;
+      width:180px ;
+      background-color: #4B3929;
+      color: aliceblue;
+      border-radius: 25px ;
+      margin-top:10px  ;
+      border: 2px solid white;
+}
+.login-reg button:hover{
+      transform: scale(1.1);
+      background-color: #9A8468 ;
+}
